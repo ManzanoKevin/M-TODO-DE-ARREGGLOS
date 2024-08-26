@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#caja {
+    background-color: rgb(231, 231, 231);
+    height: 500px;
+    width: 600px;
+    border: black solid 1px;
+}
+
+.container h1 {
+    padding: 20px;
+}
+
+.container hr {
+    margin: 20px;
+}
+
+#caja2 {
+    padding: 20px;
+}
+
+#input {
+    padding: 10px;
+    width: 400px;
+}
+
+#button-addon2 {
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(0, 104, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.caja3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 170px;
+}
+
+.total, .realizadas {
+    font-weight: bold;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tarea-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tarea-item > span {
+    width: 30px; /* Para el ID */
+    text-align: center;
+    font-weight: bold;
+}
+
+.tarea-item .tarea-texto {
+    flex: 1; /* Ocupa el espacio restante */
+    margin-left: 10px;
+}
+
+.tarea-item .controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

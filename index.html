@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <section class="centro">
+        <div id="caja" class="container">
+            <div>
+                <h1>TO DO LIST</h1>
+            </div>
+            <hr>
+            <div id="caja2" class="input-group mb-3">
+                <p>Nueva tarea</p>
+                <input id="input" type="text" class="form-control" placeholder="Ingresa una nueva tarea">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Agregar</button>
+            </div>
+            <div class="caja3">
+                <div class="contador">
+                    <p class="total">Total: <span id="total">0</span></p>
+                    <p class="realizadas">Realizadas: <span id="realizadas">0</span></p>
+                </div>
+
+                <div class="contenedor">
+                
+                    <div class="labels">
+                        <p>ID</p>
+                        <p>Tareas</p>
+                    </div>
+
+                    <div class="visor">
+                        
+                        <div class="IDD">
+                            <ul id="lista-id"></ul>
+                        </div>
+                        
+                        <div class="tareaa">
+                            <ul id="lista-tareas"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
